@@ -1,5 +1,8 @@
 {
-  "name": "site-scoop",
+  "scripts": {
+    "start-watch": "node scripts/start.js",
+    // other scripts...
+      "name": "site-scoop",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
@@ -7,6 +10,7 @@
     "start": "next start",
     "server": "node server.js"
   },
+    
   "dependencies": {
     "@stripe/react-stripe-js": "^1.13.0",
     "@stripe/stripe-js": "^1.29.0",
@@ -24,4 +28,4 @@
   "devDependencies": {
     "@vercel/node": "^2.10.0"
   }
-}
+ 
