@@ -1,0 +1,61 @@
+/* styles/Payment.module.css */
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.title {
+  margin: 0;
+  font-size: 4rem;
+  color: #6c63ff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.cardElement {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #6c63ff;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #5753d1;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.success {
+  color: #6c63ff;
+  margin-top: 20px;
+}
