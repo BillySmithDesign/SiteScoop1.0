@@ -31,9 +31,9 @@ server.all('*', (req, res) => {
 });
 
 app.prepare().then(() => {
-  server.listen(3000, (err) => {
+  server.listen(process.env.PORT || 3001, (err) => {
     if (err) throw err;
-    console.log('> Ready on http://localhost:3000');
+    console.log(`> Ready on http://localhost:${process.env.PORT || 3001}`);
   });
 }).catch((err) => {
   console.error('Error preparing Next.js app:', err);
